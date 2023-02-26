@@ -7,6 +7,14 @@ body{
     background-color: black;
 }
 
+#preloader{
+    background: black url(preloader.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
 .title1-container{
     display: flex;
     margin: auto;
