@@ -13,6 +13,8 @@
 
 <body>
     
+    <div id="preloader"></div>
+    
     <div class="title1-container">
 
         <img src="letters/quotation-02.png">
@@ -94,6 +96,15 @@
         
                         
     </script> 
+    
+    <script>
+            var loader = document.getElementById("preloader");
+
+            window.addEventListener("load", function(){
+                loader.style.display = "none";
+
+            })
+    </script>
 
 </body>
 
