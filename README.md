@@ -1,1 +1,1 @@
-# StrengthCalculator
+# POWERPRO
